@@ -167,7 +167,7 @@ def depthFirstSearch(problem: SearchProblem):
             while temState[0]!=crossState[0]:
                 temState=finalpath.pop()
             finalpath.push(temState)
-    # print(finalpath.list)
+    print(finalpath.list)
     finalPath=[x[1] for x in finalpath.list[1:]] 
     return finalPath
     
